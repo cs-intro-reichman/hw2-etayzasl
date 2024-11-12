@@ -18,6 +18,8 @@ public class Cheers {
                         System.out.print("Give me a");
                         if (isSpecial) {
                                 System.out.print("n");
+                        } else{
+                                System.out.print(" ");
                         }
                         System.out.println(" " + currentChar + ": " + currentChar + "!");
                 }      
